@@ -1,0 +1,32 @@
+html,
+body,
+#app {
+  height: 100%;
+  background-color: #2b4b6b;
+  padding: 0;
+  margin: 0;
+  /* 控制横向上的最小宽度 */
+  min-width: 1024px;
+}
+
+/* 在全局，为面包屑导航，添加下margin */
+.el-breadcrumb {
+  margin-bottom: 15px;
+}
+
+.el-card {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.el-pagination {
+  margin-top: 15px;
+}
+
+.el-step__title{
+  font-size: 12px;
+}
